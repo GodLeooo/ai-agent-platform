@@ -1,0 +1,16 @@
+{
+  "name": "ai-agent-platform",
+  "version": "1.0.0",
+  "description": "AI Agent 协同平台 - 覆盖研发全生命周期",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "code-quality": "node src/index.js code-quality",
+    "oncall": "node src/index.js oncall",
+    "e2e": "node src/index.js e2e"
+  },
+  "dependencies": {
+    "openai": "^4.80.0",
+    "dotenv": "^16.4.5"
+  }
+}
